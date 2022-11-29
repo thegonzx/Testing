@@ -93,6 +93,13 @@
     display: none;
 }
 
+.separator {
+    width: 100%;
+    background-color: #252525;
+    height: 5rem;
+    border: none;
+}
+
 /* --------------------------------- */
 /* MAIN */
 /* --------------------------------- */
@@ -120,12 +127,190 @@
 }
 
 
+/* ------ */
+/* | ME | */
+/* ------ */
+
+.me {
+    /* background-color: red; */
+    width: 100%;
+}
+
+.me-container {
+    /* background-color: darkgreen; */
+    margin: auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding: 15rem;
+    flex-direction: column;
+
+}
+
+.me-container-title {
+    /* background-color: yellow; */
+    font-size: 25rem;
+}
+
+.me-content {
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    margin-top: 15rem;
+    width: 75%;
+}
+
+.me-content-left {
+    /* background-color: aqua; */
+    width: 30%;
+    padding: 15rem;
+}
+
+.me-content-left-photo {
+    /* background-color: cadetblue; */
+    width: 100%;
+}
+
+.me-content-right {
+    /* background-color: blue; */
+    font-size: 20rem;
+    padding: 15rem;
+    width: 65%;
+    margin-left: auto;
+}
+
+.me-content-right-info {
+    /* background-color: darkorchid; */
+    line-height: 35rem;
+    text-align: justify;
+}
+
+
+
+/* ------------ */
+/* | SERVICES | */
+/* ------------ */
 
 
 .services {
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
+    font-size: 20rem;
 }
+
+.services-container {
+    /* background-color: brown; */
+    width: 75%;
+    margin: auto;
+    padding: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-content {
+    /* background-color: aqua; */
+    width: 95%;
+    display: flex;
+    margin-top: 15rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15rem;
+}
+
+.services-content-item {
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    flex-wrap: wrap;
+    padding: 15rem;
+    margin: 10rem;
+}
+
+.services-item-title {
+    margin-top: 15rem;
+}
+
+.services-item-text {
+    text-align: justify;
+    margin-top: 30rem;
+}
+
+
+
+/* ---------- */
+/* | SKILLS | */
+/* ---------- */
+
+.skills {
+    /* background-color: gray; */
+    width: 100%;
+    font-size: 20rem;
+}
+
+.skills-container {
+    /* background-color: greenyellow; */
+    width: 75%;
+    margin: auto;
+    padding: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-content {
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 15rem;
+    padding: 15rem;
+    width: 95%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills-content-left {
+    /* background-color: yellow; */
+    margin: 15rem;
+    width: 350px;
+    text-align: justify;
+    padding: 15rem;
+}
+.skills-content-right {
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    padding: 15rem;
+    margin: 15rem;
+}
+
+.skils-right-item {
+    /* background-color: crimson; */
+    width: 100%;
+    margin: 5rem;
+}
+
+.skils-right-item-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-right-item-bar {
+    background-color: black;
+    height: 5px;
+    display: flex;
+}
+
+.skills-right-item-porcent {
+    background-color: wheat;
+    width: 85%;
+}
+
+
 
 .Marks {
     background-color: brown;
