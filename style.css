@@ -1,8 +1,11 @@
+
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 :root {
@@ -19,14 +22,6 @@
 
 
 
-
-
-
-
-
-
-
-
 .header {
     /* background-color: aqua; */
     width: 100%;
@@ -36,7 +31,6 @@
 .header-nav {
     /* background-color: chartreuse; */
     display: flex;
-
     width: 75%;
     margin: auto;
     align-items: center;
@@ -94,6 +88,11 @@
     color: #E1E1E1;
 }
 
+
+.header-hr{
+    display: none;
+}
+
 /* --------------------------------- */
 /* MAIN */
 /* --------------------------------- */
@@ -142,13 +141,22 @@
     .header-nav {
         /* background-color: red; */
         flex-direction: column;
-        align-content: space-between;
+        padding: 0;
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .header-nav-title {
         /* background-color: aquamarine; */
         font-size: 35rem;
-        margin-bottom: 10rem;
+    }
+
+    .header-hr {
+        background-color: #E1E1E1;
+        display: block;
+        height: 5px;
+        width: 100%;
     }
 
     .header-nav-menu {
@@ -188,7 +196,7 @@
     .header-nav {
         /* background-color: blueviolet; */
         flex-direction: row;
-        justify-content: space-between;
+        height: 75px;
     }
 
 
@@ -196,9 +204,13 @@
         font-size: 35rem;
     }
 
+    .header-hr {
+        display: none;
+    }
+
     .header-nav-menu {
         align-items: center;
-        background-color: aqua;
+        background-color: #252525;
         flex-direction: column;
         position: fixed;
         top: 75px;
@@ -232,16 +244,16 @@
 @media (max-width: 350px) {
 
     .header-nav-title {
-        font-size: 25rem;
+        font-size: 28rem;
     }
 
     .header-nav-menu {
-        font-size: 10rem;
+        font-size: 20rem;
     }
 
     .main-container {
         /* background-color: blue; */
-        font-size: 10rem;
+        font-size: 20rem;
     }
 }
 
@@ -250,8 +262,6 @@
 
 @media (max-width: 250px) {
     .header-nav {
-        margin: 0;
-        padding: 20rem 0;
         width: 100%;
         justify-content: space-around;
     }
@@ -266,12 +276,12 @@
     }
 
     .header-nav-menu {
-        font-size: 10rem;
+        font-size: 18rem;
     }
 
     .main-container {
         /* background-color: blue; */
-        font-size: 10rem;
+        font-size: 18rem;
     }
 }
 
